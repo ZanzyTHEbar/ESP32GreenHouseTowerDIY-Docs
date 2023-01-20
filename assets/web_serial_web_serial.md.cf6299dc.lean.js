@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,h as s}from"./app.b48a81ba.js";const p=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"web_serial/web_serial.md","lastUpdated":1674227143000}'),i={name:"web_serial/web_serial.md"},r=s("",4),a=[r];function l(n,c,d,u,h,m){return t(),o("div",null,a)}const y=e(i,[["render",l]]);export{p as __pageData,y as default};
