@@ -5,13 +5,13 @@
 
 const theme = {
     logo: {
-        light: '/logo_light.png', dark: '/logo.svg', alt: 'EyeTrackVR Logo'
+        light: '/logo_light.png', dark: '/logo.svg', alt: 'Logo'
     },
-    siteTitle: 'EyeTrackVR Docs',
+    siteTitle: 'ESP32GreenhouseTowerDIY Docs',
     /* Note the footer will not show when sidebar is active */
     footer: {
         message: "Released under the MIT License.",
-        copyright: "Copyright © 2022-present ETVR",
+        copyright: "Copyright © 2022-present ZanzyTHEbar",
     },
     nav: [
         {
@@ -74,16 +74,9 @@ const theme = {
                 { text: "Docs", link: "/development/docs/dev_docs" },
             ],
         },
-        {
-            text: "Archive",
-            collapsible: true,
-            items: [
-                { text: "Prepare to solder IR LED PCB V2's", link: "/archive/fox_ir_v2_build_instructions" },
-            ],
-        },
     ],
     socialLinks: [
-        { icon: 'github', link: 'https://github.com/RedHawk989/EyeTrackVR' },
+        { icon: 'github', link: 'https://github.com/ZanzyTHEbar/ESP32GreenHouseTowerDIY' },
         { icon: 'discord', link: 'https://discord.gg/kkXYbVykZX' }
     ]
 }
