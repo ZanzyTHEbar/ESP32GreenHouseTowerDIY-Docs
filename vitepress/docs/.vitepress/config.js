@@ -3,6 +3,13 @@ import { defineConfig } from 'vitepress'
 import { theme } from '../src/custom/theme'
 
 export default defineConfig({
+    vue: {
+        template: {
+            compilerOptions: {
+                isCustomElement: (tag) => tag.startsWith('esp-web-')
+            }
+        }
+    },
     outDir: './.vitepress/dist',
     srcDir: './src/pages',
     cleanUrls: 'with-subfolders',
@@ -21,6 +28,6 @@ export default defineConfig({
     },
     lastUpdated: true,
     title: 'ESP32 GreenHouse Tower DIY Docs',
-    description: 'The official documentation for the ESP32 GreenHouse Tower DIY proejct',
+    description: 'The official documentation for the ESP32 GreenHouse Tower DIY project',
     themeConfig: theme,
 })

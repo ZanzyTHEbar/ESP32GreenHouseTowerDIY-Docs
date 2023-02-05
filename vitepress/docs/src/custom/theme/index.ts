@@ -46,6 +46,7 @@ const theme = {
             collapsible: true,
             items: [
                 { text: "Introduction", link: "/firmware_guide/firmware" },
+                { text: "WebSerial", link: "/firmware_guide/web_serial" },
                 { text: "Setup Visual Studio Code environment", link: "/firmware_guide/setup_vscode" },
                 { text: "Configuring Firmware", link: "/firmware_guide/configure_firmware" },
                 { text: "Getting Started", link: "/firmware_guide/upload_firmware" },

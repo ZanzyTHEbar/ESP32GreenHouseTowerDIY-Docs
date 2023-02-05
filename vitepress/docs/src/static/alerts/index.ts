@@ -69,33 +69,12 @@ const alerts = {
         text_color: 'text-slate-500 dark:text-slate-400',
         badge_content: 'NOTE',
     },
-    build_software_one: {
+    web_serial_one: {
         type: 'info',
-        title: '',
-        title_color: 'text-[blue]',
+        title: 'Your Data is Safe',
+        title_color: 'text-[#1c4db7] dark:text-[#215ddd]',
         text_color: 'text-slate-500 dark:text-slate-400',
-        badge_content: 'NOTE',
-    },
-    eyetrack_vr_guide_one: {
-        type: 'info',
-        title: '',
-        title_color: 'text-[blue]',
-        text_color: 'text-slate-500 dark:text-slate-400',
-        badge_content: 'NOTE',
-    },
-    eyetrack_vr_guide_two: {
-        type: 'info',
-        title: '',
-        title_color: 'text-[blue]',
-        text_color: 'text-slate-500 dark:text-slate-400',
-        badge_content: 'NOTE',
-    },
-    vrc_avatar_setup: {
-        type: 'info',
-        title: '',
-        title_color: 'text-[blue]',
-        text_color: 'text-slate-500 dark:text-slate-400',
-        badge_content: 'NOTE',
+        badge_content: 'INFO',
     },
 }
 
