@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: ESP32GreenhouseTowerDIY Docs
+  name: ESP32 Greenhouse Tower DIY Docs
   text: Opensource and affordable smart-home gardening.
   image:
     src: /logo_light.png
