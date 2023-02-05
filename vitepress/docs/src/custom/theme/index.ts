@@ -5,7 +5,7 @@
 
 const theme = {
     logo: {
-        light: '/logo_light.png', dark: '/logo.svg', alt: 'Logo'
+        light: '/logo.png', dark: '/logo.png', alt: 'Logo'
     },
     siteTitle: 'ESP32GreenhouseTowerDIY Docs',
     /* Note the footer will not show when sidebar is active */
@@ -52,18 +52,9 @@ const theme = {
             ],
         },
         {
-            text: "Software Guide",
-            collapsible: true,
-            items: [
-                { text: "Installing and setting up the ETVR App", link: "/software_guide/eyetrackvr_app_guide" },
-                { text: "Building the app from source", link: "/software_guide/build_software" },
-            ],
-        },
-        {
             text: "Miscellaneous",
             collapsible: true,
             items: [
-                { text: "VR Chat Avatar Setup", link: "/misc/vrc_avatar_setup" },
                 { text: "FAQ", link: "/misc/faq" },
             ],
         },
