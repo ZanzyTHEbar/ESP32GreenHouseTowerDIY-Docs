@@ -1,10 +1,9 @@
 <script setup>
 import Alerts from '../../vue/alerts/Alerts.vue'
 import { alerts } from '../../static/alerts'
-import PartsList from '../../vue/parts_list/PartsList.vue'
 </script>
 
-# Parts List {.text-[#ab5ac7]}
+# Parts List {.text-[var(--font-accent)]}
 
 <Alerts :options="alerts.parts_list_one">
     <template v-slot:content>
