@@ -3,6 +3,13 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.3.1](https://github.com/ZanzyTHEbar/ESP32GreenHouseTowerDIY-Docs/compare/v1.3.0...v1.3.1) (2023-02-12)
+
+
+### 🐛 Bug Fixes
+
+* broken links to science papers ([1c70c8e](https://github.com/ZanzyTHEbar/ESP32GreenHouseTowerDIY-Docs/commit/1c70c8e4a5689289fe404fba6d349daf10f24a94))
+
 ## [1.3.0](https://github.com/ZanzyTHEbar/ESP32GreenHouseTowerDIY-Docs/compare/v1.2.0...v1.3.0) (2023-02-12)
 
 
