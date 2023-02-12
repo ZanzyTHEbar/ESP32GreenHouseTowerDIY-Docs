@@ -12,14 +12,16 @@ In this section of the documentation you can flash your devices right from the b
 
 Through the magic of `WebSerial` you can flash and configure your devices without ever having to download or use VSCode.
 
-::: details <b>Dedicated Serial Monitor</b>
 The dedicated Serial Monitor is a web-based serial terminal for your devices.
 Using this terminal you can send commands to your devices and see the output.
 You can also use this to test your devices functionality and modify config settings.
 
-<h2>Serial Monitor</h2>
+Click the button below to open the Serial Monitor.
 
-::: details <b>Dedicated Serial Monitor Docs</b>
+::: details <b>Dedicated Serial Monitor</b>
+
+<h2>Serial Monitor Docs</h2>
+
 Listed here are most 😉 of the commands you can send to the terminal.
 
 <h2>Serial Monitor Commands</h2>
