@@ -1,8 +1,6 @@
 <script setup>
 import Alerts from '../../vue/alerts/Alerts.vue'
-import ImageCard from '../../vue/images/ImageComponent.vue'
 import { alerts } from '../../static/alerts'
-import { image_settings } from '../../static/image_settings'
 </script>
 
 # 🌱 ESP32GreenhouseTowerDIY 🌱 {.text-[var(--font-accent)]}
@@ -36,7 +34,7 @@ The design also features an optional 3D printable Aeroponics Nozzle for converti
 
 ![tower garden](https://raw.githubusercontent.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/main/3D%20Printing%20Files/5%20Gallon%20(20L)%20Bucket%20Lid%20Adapter/images/IMG_5375.JPG)
 
-# HOW TO ORDER PCBS
+# How to Order the PCB's
 
 PCBS can be ordered from [JLCPCB](https://jlcpcb.com/) or [PCBWay](https://www.pcbway.com/), or made yourself. The PCB files are still in prototype phase, I welcome any development ideas.
 

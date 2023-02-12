@@ -1,10 +1,10 @@
-# REST API {.text-[#ab5ac7]}
+# REST API {.text-[var(--font-accent)]}
 
 ## What is it?
 
-A REST API is a way to communicate with the ESP devices using HTTP requests. This is useful if you want to control the device from a computer or a mobile device.
+A REST API is a way to communicate with the ESP device using HTTP requests. This is useful if you want to control the device from a computer or a mobile device, as well as to log data from the device.
 
-We developed a REST API for this project so that we can control the devices more easily from our new app.
+We developed a REST API for this project so that we can control the devices more easily.
 
 ## How to use it
 
@@ -13,6 +13,10 @@ We developed a REST API for this project so that we can control the devices more
 Any REST API client can be used to communicate with the ESP devices. We recommend using [Thunder Client](https://www.thunderclient.com/) to test the REST API, as it's free and is a vscode extension.
 
 For basic `GET` requests, you can use your browser of choice.
+
+We recommend using home assistant to control the devices, as it has a built-in REST API client.
+
+If you are not using home assistant, you can use `Node-Red` to control the devices.
 
 ### Standard
 
@@ -45,12 +49,10 @@ The REST API has the following endpoints:
 | /ping | GET | Returns the status of the device. |
 | /save | GET | Writes any changes to the flash. |
 | /restartDevice | GET | Restarts the ESP itself. |
-| /restartCamera | GET | Restarts the camera. |
 | /resetConfig | GET | Clears the current config in memory and RAM |
 | /getStoredConfig | GET | Returns a _JSON_ object of the devices current config. |
 | /setTxPower | POST | Sets the Transmission Power of the ESPs |
 | /setDevice | POST | Sets the `OTA` and `mDNS` settings |
-| /setCamera | POST | Sets all of the camera settings |
 | /wifi | POST | Adds a new wifi network, or writes over an existing one |
 | /wifi | DELETE | Deletes a wifi network `**` |
 
@@ -119,9 +121,10 @@ typedef enum {
 | `service` | The service to look for when scanning `mDNS` devices on the network <br /> this should be set to `openiristracker` in order to look for `EyeTrackVR` devices  |
 | `ota_password` | The password for the `OTA` service. |
 | `ota_port` | The port for the `OTA` service. |
-| `firmware_name` | The name of the binary file for `OTA` <br /> depricated and will be removed |
 
 #### /setTxPower
+
+This is used to set a global `Tx power level`. This is the power level that will be used for all wifi networks.
 
 ::: info Note
 You must follow the following format for the `txPower` param:
@@ -151,7 +154,11 @@ typedef enum {
 | :---: | :---------: |
 | `txPower` | The power level to set. |
 
-### Camera Params
+### Peripheral Device Params
+
+The following params are used to configure the peripheral devices.
+
+Mainly the `LEDs` and `Relays` devices.
 
 ::: tip Coming Soon
 We are currently working on this section of documentation.
