@@ -5,9 +5,9 @@ import { alerts } from '../../static/alerts'
 import { image_settings } from '../../static/image_settings'
 </script>
 
-# EyeTrackVR {.text-[var(--font-accent)]}
+# 🌱 ESP32GreenhouseTowerDIY 🌱 {.text-[var(--font-accent)]}
 
-Open source and *affordable* VR eye tracker platform for Social VR Games via `OSC` and `UDP` protocol.
+This repo is dedicated to a **DIY ESP32**-based automated *Aeroponic* or *Hydroponic* Modular Tower Garden 🌵.
 
 <Alerts :options="alerts.user_warning">
     <template v-slot:content>
@@ -18,58 +18,44 @@ Open source and *affordable* VR eye tracker platform for Social VR Games via `OS
     </template>
 </Alerts>
 
-## Hardware
+## What is this project?
 
-Please check out our [Parts list](../how_to_build/parts_list/) and our [full build guide](../how_to_build/full_build/) along with our [hardware repo.](https://github.com/RedHawk989/EyeTrackVR-Hardware)
+In the height of COVID my wife and I wanted to grow our own food indoors. This open source project is a culmination of my own work and many inspirations from the internet to develop an easy, approachable, and beginner friendly project for hobbyists.
 
-## About IR Emitter Safety
+This project is designed to be modular and affordable. Featuring a vertical tower system with interlocking parts and an adapter to a common `20L/5gallon` bucket.
 
-Please *exercise extreme caution* when messing around with IR emitters.
+The design also features an optional 3D printable Aeroponics Nozzle for converting the system from the standard hydroponic to aeroponics.
 
-Once safety testing has been completed links and files will be provided for the emitters. {.italic .underline}
-
-Please do not try to make, or use any emitters unless you know exactly what you are doing as it could be very harmful to your eyes if not done correctly.
-
-::: danger
-When files and resources are released <ins>**DO NOT BYPASS (OR NOT DO) ANY SAFETY FEATURES PUT IN PLACE**</ins>. This can result in irreversible bodily harm.
+::: info Note
+> This is a work in progress and under active development. Please report any bugs or issues you may find.
 :::
 
-The safety measures were put in place to REDUCE the potential failure risk. All further safety responsibilities are on the user. This includes visually checking with an IR camera that the brightness is correct and that you do not feel warmth or experience short-term effects after being exposed to the IR light (symptoms such as dark spots or dry/warm feeling eyes while actively using). While we strive to make EyeTrackVR as safe as possible, we do not hold any responsibility for damage done.
+![tower garden](https://github.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/blob/main/3D%20Printing%20Files/Modular%20Hydroponic%20Tower%20Garden/images/IMG_20190523_094749.jpg)
 
-<Alerts :options="alerts.led_power_warning">
-    <template v-slot:content>
-        <p>
-            Make sure you are using <ins class="text-red-400 dark:text-red-500">non-focused</ins> emitters and at around <ins class="font-bold">5ma</ins> total power.
-        </p>
-    </template>
-</Alerts>
+![tower garden](https://github.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/blob/main/3D%20Printing%20Files/Modular%20Hydroponic%20Tower%20Garden/images/IMG_20200518_074307.jpg)
 
-::: details Want to see the safety data sheets?
-[Effect of infrared radiation on the lens](../saftey/effect_of_ir_on_the_lens.pdf)
+![tower garden](https://github.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/blob/main/3D%20Printing%20Files/5%20Gallon%20(20L)%20Bucket%20Lid%20Adapter/images/IMG_5375.JPG)
 
-[AN002_Details on photobiological safety of LED light sources](../saftey/AN002_Details_on_photobiological_safety_of_LED_light_sources.pdf)
+# HOW TO ORDER PCBS
 
-[Training-library Nir Stds](../saftey/training-library_nir_stds_20021011.pdf)
+PCBS can be ordered from [JLCPCB](https://jlcpcb.com/) or [PCBWay](https://www.pcbway.com/), or made yourself. The PCB files are still in prototype phase, I welcome any development ideas.
+
+# Introduction
+
+**Purpose:** These are instructions to build an open hardware, DIY Vertical Greenhouse Garden.
+
+**Expected results:** A fully functional and (reasonably) automated vertical tower system.
+
+**Minimal parts cost:** `<$20` for the basic system which consists of a `20L/5gallon` (can be smaller - minimum size is `4L/1 gallon`) humidifier box/water reservoir and submersible pump - about `$100`. You will also need to purchase the PCB's `~$40`, power supply and sensors `~$30`. The cost of the parts will vary depending on the size of the tower, and the number of sensors. The cost of 3D printing the tower will be `~$25` or less. The full `1m` tower consumes `~2kg` of `PETG` - which is the recommended printing material for outdoor use. The tower can be printed in `ABS` and/or `PETG` materials.
+
+::: warning Note
+The cost of plant nutrients is **not** taken into account, and is up to you to control.
 :::
 
-## Firmware
+**Goal:** The goal of this project was to build a high-efficiency, very low cost direct DIY vertical tower garden for growing small fruits and vegetables.
 
-Our firmware called OpenIris is made by `lorow` found [here](https://github.com/lorow/OpenIris).
+____
 
-## Headset support
+## How to Setup
 
-Please take a look at our list of [3d printable mounts](../how_to_build/parts_list#other-parts) and see if your headset is on the list.
-If it is not listed, It is recommended that you try to make a mount, or wait for a skilled community member to create one.
-
-#### Contact
-
-Please join our discord for updates and any questions.
-
-<ImageCard :options="image_settings.discord_content"/>
-
-# Licenses
-
-[![GitHub license](https://img.shields.io/github/license/RedHawk989/EyeTrackVR?style=plastic)](https://github.com/RedHawk989/EyeTrackVR/blob/main/LICENSE)
-
-***All software is under the [MIT License](http://opensource.org/licenses/MIT).
-All documentation, including the [Wiki](https://github.com/RedHawk989/EyeTrackVR/wiki), is under the Creative Commons CC-BY-SA-4.0 license***.
+Setup is very straight forward, thankfully. Please see our [Hardware Setup](../how_to_build/parts_list) page for more information on parts.
