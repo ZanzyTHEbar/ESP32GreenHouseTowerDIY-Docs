@@ -6,7 +6,7 @@ import {alerts} from '../../static/alerts'
 
 <noscript>Javascript must be enabled to run this section of the website. If you are seeing this, please update your browser settings</noscript>
 
-# How to flash the firmware {.text-3xl .font-bold .text-[#ab5ac7]}
+# How to flash the firmware {.text-[var(--font-accent)]}
 
 In this section of the documentation you can flash your devices right from the browser!
 
