@@ -38,7 +38,7 @@ const theme = {
             items: [
                 { text: "Full Build Guide", link: "/how_to_build/full_build" },
                 { text: "Part List", link: "/how_to_build/parts_list" },
-                { text: "How to Create your own Camera Mount", link: "/how_to_build/creating_your_own_mount" },
+                { text: "Tested Components", link: "/how_to_build/tested_components" },
             ],
         },
         {
@@ -46,11 +46,29 @@ const theme = {
             collapsible: true,
             items: [
                 { text: "Introduction", link: "/firmware_guide/firmware" },
+                { text: "Configuring Firmware", link: "/firmware_guide/configure_firmware" },
+                { text: "WebSerial", link: "/firmware_guide/web_serial" },
+                { text: "MDNS", link: "/firmware_guide/mdns" },
+                { text: "REST API", link: "/firmware_guide/rest_api" },
+            ],
+        },
+        {
+            text: "Hardware Guide",
+            collapsible: true,
+            items: [
+                { text: "PH Sensor", link: "/hardware_guide/ph_sensor" },
+            ],
+        },
+        /* {
+            text: "Build from Source",
+            collapsible: true,
+            items: [
+                { text: "Introduction", link: "/firmware_guide/firmware" },
                 { text: "Setup Visual Studio Code environment", link: "/firmware_guide/setup_vscode" },
                 { text: "Configuring Firmware", link: "/firmware_guide/configure_firmware" },
                 { text: "Getting Started", link: "/firmware_guide/upload_firmware" },
             ],
-        },
+        }, */
         {
             text: "Miscellaneous",
             collapsible: true,
