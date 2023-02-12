@@ -8,3 +8,7 @@ import { image_settings } from '../../static/image_settings'
 # Build Guide {.text-[var(--font-accent)]}
 
 ## This page will contain a step-by-step assembly guide
+
+::: tip Coming Soon
+This page is still under construction. Please check back later.
+:::
