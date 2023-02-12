@@ -3,6 +3,18 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.3.0](https://github.com/ZanzyTHEbar/ESP32GreenHouseTowerDIY-Docs/compare/v1.2.0...v1.3.0) (2023-02-12)
+
+
+### 🍕 Features
+
+* continue updating docs ([b36d73b](https://github.com/ZanzyTHEbar/ESP32GreenHouseTowerDIY-Docs/commit/b36d73bbf1ecc4cb3a255fac4a3dbb3bf3d3cc86))
+
+
+### 🐛 Bug Fixes
+
+* broken link ([f587f41](https://github.com/ZanzyTHEbar/ESP32GreenHouseTowerDIY-Docs/commit/f587f4116567e06ca8b2b923ba0e47bc68c83ef5))
+
 ## [1.2.0](https://github.com/ZanzyTHEbar/ESP32GreenHouseTowerDIY-Docs/compare/v1.1.0...v1.2.0) (2023-02-12)
 
 
