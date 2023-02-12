@@ -38,6 +38,7 @@ const theme = {
             items: [
                 { text: "Full Build Guide", link: "/how_to_build/full_build" },
                 { text: "Part List", link: "/how_to_build/parts_list" },
+                { text: "Tested Components", link: "/how_to_build/tested_components" },
             ],
         },
         {
@@ -52,6 +53,13 @@ const theme = {
             ],
         },
         {
+            text: "Hardware Guide",
+            collapsible: true,
+            items: [
+                { text: "PH Sensor", link: "/hardware_guide/ph_sensor" },
+            ],
+        },
+        /* {
             text: "Build from Source",
             collapsible: true,
             items: [
@@ -60,7 +68,7 @@ const theme = {
                 { text: "Configuring Firmware", link: "/firmware_guide/configure_firmware" },
                 { text: "Getting Started", link: "/firmware_guide/upload_firmware" },
             ],
-        },
+        }, */
         {
             text: "Miscellaneous",
             collapsible: true,
