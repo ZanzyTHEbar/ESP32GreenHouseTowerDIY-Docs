@@ -9,7 +9,7 @@ import {
   VPTeamPageSection
 } from 'vitepress/theme'
 
-import { members, contributors } from '../static/members'
+import { members } from '../static/members'
 </script>
 
 <VPTeamPage>
@@ -20,23 +20,14 @@ import { members, contributors } from '../static/members'
       </div>
     </template>
     <template #lead>
-      The development of EyeTrackVR is guided by an international
+      The development of this project is guided by an international
       team, some of whom have chosen to be featured below.<br>
-        <br>
-      EyeTrackVR developers are a group of people who are passionate about the field of augmented and virtual reality.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
     size="medium"
     :members="members"
   />
-  <VPTeamPageSection>
-    <template #title>Contributors</template>
-    <template #lead>Those who have actively contributed to development.<br> Community Support</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="contributors" />
-    </template>
-  </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>Philosophy</template>
     <template #lead>
