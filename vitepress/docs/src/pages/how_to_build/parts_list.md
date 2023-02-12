@@ -9,7 +9,7 @@ import { alerts } from '../../static/alerts'
 
 This page will include a basic part list for building a basic setup.
 
-<Alerts :options="alerts.parts_list_one">
+<Alerts :options="alerts.user_warning">
     <template v-slot:content>
         <p>
            Please note that no hardware has been fully set in stone, all purchases are at your loss if hardware changes.
