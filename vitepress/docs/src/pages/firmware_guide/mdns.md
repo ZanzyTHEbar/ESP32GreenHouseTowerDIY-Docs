@@ -14,7 +14,14 @@ The `mDNS` feature is enabled by default on the new firmware, and can not be dis
 
 To use it, all you need to do is set the name of the device in the firmware config file.
 
+::: info Config file
+
+If you are building from source, you can find the config file in the `ini` folder.
+
 This setting can be located under the `[wifi]` section of the `ini/user_config.ini` file.
+
+If you are using the pre-built firmware, you can edit this setting in [Configure Firmware](/firmware_guide/configure_firmware).
+:::
 
 ```ini
 mdnsname = "greenhousetower" # do not add .local
@@ -23,7 +30,7 @@ mdnsname = "greenhousetower" # do not add .local
 By default, the name of the device is `greenhousetower`, however you can change it to whatever you want.
 
 ::: warning Change the name
-Since you have two ESP32 devices, you need to make sure that the name of the device is different for each device. If you do not change the name of the device, you will not be able to connect to both devices at the same time.
+If you have more than one ESP32 device using this firmware, you need to make sure that the name of the device is different for each device. If you do not change the name of the device, you will not be able to connect to both devices at the same time, as they will conflict with each other.
 :::
 
 ### Connect to the device
@@ -38,7 +45,7 @@ You can also get the fully tested Bonjour package from us [here](https://github.
 
 ## MQTT Broker Auto Discovery
 
-The firmware supports the MQTT Broker Auto Discovery protocol. This means that you can connect to the MQTT Broker automgically without having to manually configure the MQTT Broker's IP address.
+The firmware implements a convienent `Auto Discovery` feature. This means that you can connect to the MQTT Broker automagically without having to manually configure the MQTT Broker's IP address.
 
 ____
 
@@ -81,7 +88,7 @@ For this to work, the MQTT service needs to be advertised. On a Linux host syste
 
 This will advertise the MQTT service on port 1883. If you are using a different port, you will need to change it in the above file.
 
-Now you are raedy to connect to the MQTT broker, autogamically.
+Now you are ready to connect to the MQTT broker, automagically.
 
 ## Troubleshooting
 

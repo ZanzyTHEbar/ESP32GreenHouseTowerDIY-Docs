@@ -30,11 +30,11 @@ The design also features an optional 3D printable Aeroponics Nozzle for converti
 > This is a work in progress and under active development. Please report any bugs or issues you may find.
 :::
 
-![tower garden](https://github.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/blob/main/3D%20Printing%20Files/Modular%20Hydroponic%20Tower%20Garden/images/IMG_20190523_094749.jpg)
+![tower garden](https://raw.githubusercontent.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/main/3D%20Printing%20Files/Modular%20Hydroponic%20Tower%20Garden/images/IMG_20190523_094749.jpg)
 
-![tower garden](https://github.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/blob/main/3D%20Printing%20Files/Modular%20Hydroponic%20Tower%20Garden/images/IMG_20200518_074307.jpg)
+![tower garden](https://raw.githubusercontent.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/main/3D%20Printing%20Files/Modular%20Hydroponic%20Tower%20Garden/images/IMG_20200518_074307.jpg)
 
-![tower garden](https://github.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/blob/main/3D%20Printing%20Files/5%20Gallon%20(20L)%20Bucket%20Lid%20Adapter/images/IMG_5375.JPG)
+![tower garden](https://raw.githubusercontent.com/ZanzyTHEbar/ESP32GreenhouseTowerDIY/main/3D%20Printing%20Files/5%20Gallon%20(20L)%20Bucket%20Lid%20Adapter/images/IMG_5375.JPG)
 
 # HOW TO ORDER PCBS
 
