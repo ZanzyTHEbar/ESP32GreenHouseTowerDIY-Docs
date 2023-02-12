@@ -1,1 +1,0 @@
-import{_ as e,o as r,c as a}from"./app.1f4cd23e.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"firmware_guide/configure_firmware.md","lastUpdated":1676224329000}'),t={name:"firmware_guide/configure_firmware.md"};function o(i,c,n,s,_,f){return r(),a("div")}const p=e(t,[["render",o]]);export{m as __pageData,p as default};
