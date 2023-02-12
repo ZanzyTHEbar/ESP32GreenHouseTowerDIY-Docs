@@ -30,10 +30,10 @@ A great place to get started is to watch some videos on aeroponics. Here are som
 
 ### Papers and articles
 
-[Hydroponics, Aeroponic and Aquaponic as Compared with Conventional Farming, _American Scientific Research Journal for Engineering, Technology, and Sciences (ASRJETS) (2017) Volume 27, No 1, pp 247-255_](asrjetsjournal.org/index.php/American_Scientific_Journal/article/download/2543/1028)
+[Hydroponics, Aeroponic and Aquaponic as Compared with Conventional Farming, _American Scientific Research Journal for Engineering, Technology, and Sciences (ASRJETS) (2017) Volume 27, No 1, pp 247-255_](https://asrjetsjournal.org/index.php/American_Scientific_Journal/article/download/2543/1028)
 
-[The impact of aeration on potato (Solanum tuberosumL.) minituber production under soilless conditions _academicjournals.org (2015) Vol. 14(11), pp 910-921, 18 March_](http://www.academicjournals.org/article/article1426864985_Mobini%20et%20al.pdf)
+[The impact of aeration on potato (Solanum tuberosumL.) minituber production under soilless conditions _academicjournals.org (2015) Vol. 14(11), pp 910-921, 18 March_](https://www.academicjournals.org/article/article1426864985_Mobini%20et%20al.pdf)
 
-[Use of aeroponics technique for potato (Solanum tuberosum) minitubers production in Kenya](http://www.academicjournals.org/article/article1379513341_Mbiyu%20et%20al.pdf)
+[Use of aeroponics technique for potato (Solanum tuberosum) minitubers production in Kenya](https://www.academicjournals.org/article/article1379513341_Mbiyu%20et%20al.pdf)
 
 ### Once you have acknowledged the items above, move on to the [Full Build Guide](../how_to_build/full_build)
