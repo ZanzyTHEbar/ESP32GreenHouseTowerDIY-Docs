@@ -19,7 +19,7 @@ export default {
 <template>
     <div class="my-2 max-w-xs">
         <esp-web-install-button :overrides={checkSameFirmware} manifest="firmware/manifest.json">
-            <button class="rounded-[8px] bg-blue-700 p-2 text-white mt-1 hover:bg-blue-600 focus:bg-blue-500"
+            <button class="rounded-[8px] bg-green-600 p-2 text-[var(--vp-c-black)] mt-1 hover:bg-green-500 focus:bg-green-400"
                 slot="activate">Flash my Firmware</button>
             <span slot="unsupported">Ah snap, your browser doesn't work!</span>
             <span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>
