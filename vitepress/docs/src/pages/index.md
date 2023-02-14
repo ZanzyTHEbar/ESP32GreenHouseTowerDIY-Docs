@@ -5,7 +5,7 @@ hero:
   name: Greenhouse Tower DIY Docs
   text: Opensource and affordable smart-home gardening.
   image:
-    src: /logo_big.png
+    src: /images/logo.svg
     alt: logo
   tagline: Tower to Table.
   actions:
