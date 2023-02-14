@@ -5,7 +5,7 @@
 
 const theme = {
     logo: {
-        light: '/logo.png', dark: '/logo.png', alt: 'Logo'
+        light: '/images/logo.svg', dark: '/images/logo.svg', alt: 'Logo'
     },
     siteTitle: 'ESP32GreenhouseTowerDIY Docs',
     /* Note the footer will not show when sidebar is active */
